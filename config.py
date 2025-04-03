@@ -35,8 +35,8 @@ class Config(object):
     BAN_STICKER = getenv("BAN_STICKER", "")
     ALLOW_EXCL = True
     CUSTOM_CMD = False
-    CHANNEL = getenv("CHANNEL", "TheUpdatesChannel")
-    SUPPORT = getenv("SUPPORT", "TheSupportChat")
+    CHANNEL = getenv("CHANNEL", "https://t.me/TIDALXUPDATES")
+    SUPPORT = getenv("SUPPORT", "https://t.me/tidal_support")
     START_IMG = os.environ.get("START_IMG", "https://telegra.ph/file/35a7b5d9f1f2605c9c0d3.png")
     CMD_IMG = os.environ.get("CMD_IMG", "https://telegra.ph/file/66518ed54301654f0b126.png")
     CASH_API_KEY = getenv("CASH_API_KEY", "https://www.alphavantage.co/support/#api-key")
